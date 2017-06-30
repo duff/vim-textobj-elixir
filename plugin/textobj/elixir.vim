@@ -8,8 +8,8 @@ set cpo&vim
 
 call textobj#user#plugin('elixir', {
     \ 'any' : {
-    \      'select-a' : 'ae', '*select-a-function*' : 'textobj#elixir#any_select_a',
-    \      'select-i' : 'ie', '*select-i-function*' : 'textobj#elixir#any_select_i',
+    \      'select-a' : 'ax', '*select-a-function*' : 'textobj#elixir#any_select_a',
+    \      'select-i' : 'ix', '*select-i-function*' : 'textobj#elixir#any_select_i',
     \   },
     \ })
 
